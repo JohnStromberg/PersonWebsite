@@ -27,7 +27,7 @@ function Projects() {
                     <ProjectItem name="Hill Cipher" image={HC} desc="A working version of the Hill Cipher encrption algorithm.
                     This project was made in Python using the NumPy library." link="https://github.com/JohnStromberg/Hill-Cipher"/>
                     </a>
-                    <a href="" target="_blank" style={{textDecoration:'none'}}>
+                    <a href="https://github.com/JohnStromberg/PersonWebsite" target="_blank" style={{textDecoration:'none'}}>
                     <ProjectItem name="Person Website" image={PersonWebsite} desc="The source code for the website are you currently on!
                      This was made in React using JavaScript, CSS, and HTML." link=""/>
                     </a>
