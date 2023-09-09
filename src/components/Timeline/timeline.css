@@ -1,0 +1,18 @@
+.tl {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tl-div {
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.tl h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

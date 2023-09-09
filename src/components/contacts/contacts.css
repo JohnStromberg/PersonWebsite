@@ -1,0 +1,112 @@
+.c {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+}
+
+.c-bg {
+    width: 20px;
+    height: 100%;
+    background-color: #0077b6;
+    position: absolute;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.c-title {
+    font-size: 60px;
+    width: 80%;
+}
+
+.c-info {
+    display: flex;
+    margin: 50px 0px;
+}
+
+.c-info-item {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    font-weight: 300;
+    color: royalblue;
+}
+
+.c-inside {
+    margin: 0px 10px;
+}
+
+.c-desc {
+    font-weight: 200;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+Button {
+    border: none;
+    padding: 15px;
+    background-color: #0077b6;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.c-thanks {
+    font-weight: 300;
+}
+
+.c-div {
+    width: 75%;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+
