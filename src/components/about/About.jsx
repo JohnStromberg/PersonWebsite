@@ -34,7 +34,7 @@ const About = () => {
                     Hello, my name is John Stromberg, I am a computer science student at Bethel University. I am from St. Paul Minnesota.
                 </p>
                 <p className="a-desc">
-                    I am currently studying computer science with a mathematics minor. I am currently a computer science and math tutor at Bethel Univeristy and a clerical assistant from the registrar's office.
+                    I am currently studying computer science with a mathematics minor. I work as a computer science and math tutor at Bethel Univeristy and a clerical assistant from the registrar's office.
                     In my free time, I enjoy playing in the Bethel University Wind Symphony.
                 </p>
                     <h1 className="a-title">My Skills:</h1>
