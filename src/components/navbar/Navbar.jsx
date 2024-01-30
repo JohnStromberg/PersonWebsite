@@ -1,14 +1,12 @@
 import  "./Navbar.css"
-import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import React, {useRef} from "react";
+import { Link } from 'react-scroll'
+import React from "react";
 import Logo from "../../img/logo.png"
 
 const Navbar = () => {
-    const scollToRef = useRef();
     return (
         <div className="nav">
-            <img src={Logo} alt="Python" className="icon"/>
+            <img src={Logo} alt="Logo" className="icon"/>
             <li>
                 <Link activeClass="active" smooth spy to="home">
                     Home

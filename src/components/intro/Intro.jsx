@@ -1,8 +1,7 @@
 import "./intro.css";
 import Me from "../../img/me.png"
-import {AiOutlineArrowDown} from "react-icons/ai"
 import {useRef} from "react";
-import React, {createRef} from "react";
+import React from "react";
 import {AiOutlineMail, AiFillGithub, AiFillLinkedin} from "react-icons/ai"
 
 const Intro = () => {
@@ -40,7 +39,9 @@ const Intro = () => {
         <div className="i-right">
           <div className="i-bg"></div>
             <div className="i-bg2"></div>
-          <img src={Me} alt="" className="i-img" />
+            <div className="i-img-container">
+                <img src={Me} alt="" className="i-img" />
+            </div>
         </div>
       </div>
       </div>

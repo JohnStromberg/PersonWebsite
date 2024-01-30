@@ -1,7 +1,5 @@
 import "./about.css"
 import Drum from "../../img/drum.JPG"
-import {useContext} from "react";
-import {ThemeContext} from "../../context"
 import Python from "../../img/python.png"
 import Java from "../../img/java.png"
 import JavaScript from "../../img/javascript.png"
@@ -15,7 +13,6 @@ import CSharp from "../../img/CSharp.png"
 import Resume from "../../files/JohnStrombergResume.pdf"
 
 const About = () => {
-    const theme = useContext(ThemeContext)
     return (
         <div>
             <div className="a-first">
@@ -44,8 +41,6 @@ const About = () => {
                         <img src={JavaScript} alt="Javascript" className="a-icon"/>
                         <img src={GitHub} alt="GitHub" className="a-icon"/>
                         <img src={SQL} alt="React" className="a-icon"/>
-                    </div>
-                    <div className="a-container">
                         <img src={C} alt="C" className="a-icon"/>
                         <img src={Cplus} alt="C++" className="a-icon"/>
                         <img src={CSharp} alt="GitHub" className="a-icon"/>
