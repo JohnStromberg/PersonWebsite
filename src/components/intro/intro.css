@@ -159,7 +159,7 @@
   }
   .i {
     display: flex;
-    height: fit-content;
+    height: 50vh;
   }
 
   .i-left-wrapper {
@@ -171,6 +171,12 @@
 
   .i-name {
     font-size: 50px;
+  }
+
+  .i-icon-holder {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
   }
 }
 

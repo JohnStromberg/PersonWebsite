@@ -45,7 +45,6 @@ const Contacts = () => {
                     <div className="c-info">
                         <a href={Resume} download={Resume} style={{textDecoration:'none'}}><button>Download My Resume</button></a>
                     </div>
-
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
