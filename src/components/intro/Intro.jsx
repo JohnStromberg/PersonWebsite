@@ -16,11 +16,12 @@ const Intro = () => {
             <div className="i-container">
               <div className="i-intro">I am a</div>
               <div className="i-title">
-                <div className="i-title-wrapper">
-                  <div className="i-title-item">Programmer</div>
-                  <div className="i-title-item">Musician</div>
-                  <div className="i-title-item">Tutor</div>
-                </div>
+                  <div className="i-title-wrapper">
+                      <div className="i-title-item">Full Stack Developer</div>
+                      <div className="i-title-item">Musician</div>
+                      <div className="i-title-item">Web Developer</div>
+                      <div className="i-title-item">Tutor</div>
+                  </div>
               </div>
             </div>
               <div className="i-icon-holder">

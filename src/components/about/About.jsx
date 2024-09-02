@@ -31,22 +31,22 @@ const About = () => {
                     Hello, my name is John Stromberg, I am a computer science student at Bethel University. I am from St. Paul Minnesota.
                 </p>
                 <p className="a-desc">
-                    I am currently studying computer science with a mathematics minor. I work as a computer science and math tutor at Bethel University and a clerical assistant from the registrar's office.
+                    I am currently studying computer science with a mathematics minor. I completed a Software Development Engineer internship at Navitaire, where I worked to convert client facing UIs to Blazor. I also currently work as a computer science tutor at Bethel University.
                     In my free time, I enjoy playing in the Bethel University Wind Symphony.
                 </p>
                     <h1 className="a-title">My Skills:</h1>
-                    <div className="a-container">
-                        <img src={Python} alt="Python" className="a-icon"/>
-                        <img src={Java} alt="Java" className="a-icon"/>
-                        <img src={JavaScript} alt="Javascript" className="a-icon"/>
-                        <img src={GitHub} alt="GitHub" className="a-icon"/>
-                        <img src={SQL} alt="React" className="a-icon"/>
-                        <img src={C} alt="C" className="a-icon"/>
-                        <img src={Cplus} alt="C++" className="a-icon"/>
-                        <img src={CSharp} alt="GitHub" className="a-icon"/>
-                        <img src={React} alt="React" className="a-icon"/>
-                        <img src={R} alt="React" className="a-icon"/>
-                    </div>
+                <div className="a-container">
+                    <img src={CSharp} alt="C#" className="a-icon"/>
+                    <img src={JavaScript} alt="Javascript" className="a-icon"/>
+                    <img src={React} alt="React" className="a-icon"/>
+                    <img src={SQL} alt="SQL" className="a-icon"/>
+                    <img src={Python} alt="Python" className="a-icon"/>
+                    <img src={Java} alt="Java" className="a-icon"/>
+                    <img src={GitHub} alt="GitHub" className="a-icon"/>
+                    <img src={C} alt="C" className="a-icon"/>
+                    <img src={Cplus} alt="C++" className="a-icon"/>
+                    <img src={R} alt="R-Project" className="a-icon"/>
+                </div>
             </div>
         </div>
             <div className="a-credit">Photo by ON2 Percussion</div>

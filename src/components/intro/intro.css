@@ -49,11 +49,14 @@
 }
 
 @keyframes move {
-  50% {
+  33% {
     transform: translateY(-50px);
   }
-  100% {
+  66% {
     transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
   }
 }
 
@@ -176,7 +179,15 @@
   .i-icon-holder {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+  }
+
+  .i-title-item {
+    height: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: #0077b6;
+    display: flex;
+    align-items: center;
   }
 }
 

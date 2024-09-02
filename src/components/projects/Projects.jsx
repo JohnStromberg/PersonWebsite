@@ -35,8 +35,8 @@ function Projects() {
                      This was made in React using JavaScript, CSS, and HTML." link="https://github.com/JohnStromberg/PersonalWebsite"/>
                     </a>
                     <a href="https://github.com/JohnStromberg/MinecraftGradientNameCreator" target="_blank" style={{textDecoration:'none'}}>
-                        <ProjectItem name="Gradient Generator" image={Gradient} desc="This project used unit vectors to determine values between two colors.
-                     The output is in Hex. This project was made in React." link="https://github.com/JohnStromberg/MinecraftGradientNameCreator"/>
+                        <ProjectItem name="Gradient Generator" image={Gradient} desc="This project uses unit vectors to determine hex values between two colors.
+                     This project was made in React." link="https://github.com/JohnStromberg/MinecraftGradientNameCreator"/>
                     </a>
                 </div>
         </div>
